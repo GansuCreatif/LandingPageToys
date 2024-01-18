@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Oswald:wght@200;700&display=swap');
+body{
+  padding: 16px 7%;
+}
+section{
+  margin-bottom: 50px;
+}
+.py-5 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+#home {
+  margin-top: 40px; /* Atur nilai sesuai kebutuhan */
+}
+
+#faqs {
+  margin-bottom: 80px; /* Atur nilai sesuai kebutuhan */
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  #home{
+    background-image:url('https://shop.bandai.com/media/magefan_blog/04_12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+      h1{
+        font-size: 80px;
+        color: #641E16;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+
+      }
+      p{
+        font-size: 80x;
+        font-family: 'Chakra Petch', sans-serif;
+        color:#000000;
+        font-weight: bold;
+      }
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  #testimoni img{
+    display: flex;
+    justify-content: center;
+  }
+
+  #katalog{
+    background-color: #dadfde;
+  }
+  #faqs{
+    background-color: #dadfde;
+    margin: 100px;
+  }
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
